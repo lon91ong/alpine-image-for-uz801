@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:093262d9dd02768e0d882ccee063a757a2dd0e53b788ea753891826f87e763e4
-size 108
+* filter=lfs diff=lfs merge=lfs -text
+*.* filter=lfs diff=lfs merge=lfs -text
+Adb*.dll
+adb.exe
+fastboot.exe
